@@ -19,6 +19,10 @@
     background: white;
     padding: 5px 35px 10px 35px;
 }
+.login:hover{
+    background-color: rgb(19, 170, 170);
+    color: white;
+}
 .menu ul{
     display: flex;
     flex-direction: row;
@@ -26,6 +30,9 @@
     list-style-type:none;
     font-size: small;
     gap: 70px;
+}
+.menu li:hover{
+    color: rgb(19, 170, 170);
 }
 .content{
     padding: 30px;
@@ -51,6 +58,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:hover{
+    font-weight:bold;
+    width: 175px;
+    border-radius: 5px;
 }
 .center
 {
@@ -162,6 +174,9 @@ hr{
 }
 .spangrey{
     color:grey;
+}
+.spangrey:hover{
+    color: rgb(0, 174, 255);
 }
 .line
 {
